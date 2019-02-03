@@ -1,0 +1,180 @@
+/* reseting font-size to make 1em conversion easier */
+html {
+    font-size: 62.5%;
+    background-image: url("http://katiea.sgedu.site/project/images/background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #112145;
+    font-family: Lato;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: auto; 
+    width: 90em;
+    padding-top: 0.5em;
+    padding-right: 4em; 
+    padding-bottom: 4.5em;
+    padding-left: 4em; 
+    margin-top: 3em;
+    margin-bottom: 5em;
+    box-shadow: 0.25em 2em 8em -1em rgba(118,118,118,0.8);
+}
+
+/* unvisited link */
+a:link {
+    color: #BD447A;
+}
+
+/* visited link */
+a:visited {
+    color: #BD447A;
+}
+
+/* mouse over link */
+a:hover {
+    color: #5F3368;
+}
+
+/* link stylizing */
+a{
+    text-decoration: none;
+}
+
+/* navigation stylizing */
+nav {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+nav a {
+    background-color: white;
+    display: block;
+    width: 10em;
+    margin: 1em;
+    padding: 0.65em;
+    text-align: center;
+    border-radius: 1.2em;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    background-color: #BD447A;
+    color: white;
+}
+
+/* current page navigation stylizing */
+a.links {
+    background-color: #BD447A;
+    color: white;
+}
+
+/* clicked nav stylizing */
+nav a:active {
+    background-color: #5F3368;
+}
+
+/* header image stylizing */
+img {
+    width: 100%;
+}
+
+/* header font stylizing */
+h1 {
+    font-family: Ubuntu;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: Ubuntu;
+    font-size: 2.5em;
+    font-weight: 600;
+
+}
+
+/* content stylizing */
+h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    padding-top: 1.5em;
+}
+
+/* image stylizing */
+picture img{
+    height: 27em;
+    width: auto;
+    float: left;
+    padding-top: 2em;
+    padding-right: 2em;
+    filter:contrast(200%);
+    transform: rotate(-10deg);
+}
+
+/* footer stylizing */
+footer {
+    background-color: rgba(118, 118, 118, 0.1);
+    font-size: 1.2em;
+    display: flex;
+    margin: auto;
+    width: 60em;
+    justify-content: space-around;
+    border-radius: 1.2em;
+    margin-top: 3em;
+}
+
+footer p {
+    display: block;
+    margin: 1.5em;
+}
+
+h3 + ul {
+    padding-top: 0.5em;
+    margin-left: 1.65em;
+    font-size: 1.5em;
+}
+
+ul {
+    padding-bottom: 1em;
+}
+
+/* viewport - small */
+@media screen and (max-width: 600px) {
+nav {
+    display: flex;
+    margin: auto;
+    float: left;
+}
+
+nav a {
+    background-color: white;
+    display: block;
+    width: 5.75em;
+    margin: 0.7em;
+    text-align: center;
+    border-radius: 1.2em;
+    font-size: 2em;
+}
+
+img {
+    width: 57%;
+}
+
+h1 {
+    font-size: 3.3em
+}
+
+h2 {
+    font-size: 2.15em;
+}
+
+picture {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+    }
