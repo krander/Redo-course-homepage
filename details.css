@@ -1,0 +1,194 @@
+/* reseting font-size to make 1em conversion easier */
+html {
+    font-size: 62.5%;
+    background-image: url("http://katiea.sgedu.site/project/images/background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #112145;
+    font-family: Lato;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: auto; 
+    width: 90em;
+    padding-top: 0.5em;
+    padding-right: 4em; 
+    padding-bottom: 4.5em;
+    padding-left: 4em; 
+    margin-top: 3em;
+    margin-bottom: 5em;
+    box-shadow: 0.25em 2em 8em -1em rgba(118,118,118,0.8);
+}
+
+/* unvisited link */
+a:link {
+    color: #F88941;
+}
+
+/* visited link */
+a:visited {
+    color: #F88941;
+}
+
+/* mouse over link */
+a:hover {
+    color: #C85A3F;
+}
+
+/* link stylizing */
+a{
+    text-decoration: none;
+}
+
+/* navigation stylizing */
+nav {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+nav a {
+    background-color: white;
+    display: block;
+    width: 10em;
+    margin: 1em;
+    padding: 0.65em;
+    text-align: center;
+    border-radius: 1.2em;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    background-color: #F88941;
+    color: white;
+}
+
+/* current page navigation stylizing */
+a.details {
+    background-color: #F88941;
+    color: white;
+}
+
+/* clicked nav stylizing */
+nav a:active {
+    background-color: #C85A3F;
+}
+
+/* header image stylizing */
+img {
+    width: 100%;
+}
+
+/* header font stylizing */
+h1 {
+    font-family: Ubuntu;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: Ubuntu;
+    font-size: 2.5em;
+    font-weight: 600;
+
+}
+
+/* content stylizing */
+h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    padding-top: 1em;
+}
+
+/* attribute selector requirement */
+a[href="http://d2l.depaul.edu"] {
+  letter-spacing: 0.1em;
+}
+
+/* textbook image stylizing */
+figure img{
+    height: 35em;
+    width: auto;
+    float: right;
+    position: relative;
+    top: -9.5em;
+}
+
+figure img:hover {
+    transition: transform .30s ease-out;
+    transform: scale(1.05);
+    z-index: 10;
+}
+
+figcaption {
+    font-size: 1.4em
+}
+
+/* footer stylizing */
+footer {
+    background-color: rgba(118, 118, 118, 0.1);
+    font-size: 1.2em;
+    display: flex;
+    margin: auto;
+    width: 60em;
+    justify-content: space-around;
+    border-radius: 1.2em;
+    margin-top: 3em;
+}
+
+footer p {
+    display: block;
+    margin: 1.5em;
+}
+
+h3 + ul {
+    list-style-type: square;
+    margin-left: 1.65em;
+    font-size: 1.5em;
+}
+
+/* viewport - small */
+@media screen and (max-width: 600px) {
+nav {
+    display: flex;
+    margin: auto;
+    float: left;
+}
+
+nav a {
+    background-color: white;
+    display: block;
+    width: 5.75em;
+    margin: 0.7em;
+    text-align: center;
+    border-radius: 1.2em;
+    font-size: 2em;
+}
+
+img {
+    width: 57%;
+}
+
+h1 {
+    font-size: 3.3em
+}
+
+h2 {
+    font-size: 2.15em;
+}
+
+figure img {
+    display: none;
+}
+
+figure {
+    word-wrap: break-word;
+    width: 50em;
+}
+
+footer {
+    display: none;
+}
+
+    }
