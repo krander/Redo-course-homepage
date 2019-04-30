@@ -3,7 +3,7 @@
 /* reseting font-size to make 1em conversion easier */
 html {
     font-size: 62.5%;
-    background-image: url("images/background.jpg");
+    background-image: url("https://krander.github.io/Redo-course-homepage/images/background.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
     color: #112145;
